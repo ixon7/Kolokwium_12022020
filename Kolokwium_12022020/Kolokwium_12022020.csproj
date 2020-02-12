@@ -50,9 +50,13 @@
     <Compile Include="IKopiarka.cs" />
     <Compile Include="ISkaner.cs" />
     <Compile Include="Kopiarka.cs" />
+    <Compile Include="Outlook.cs" />
     <Compile Include="Piosenka.cs" />
+    <Compile Include="Poczta.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PrzegladarkaChrome.cs" />
+    <Compile Include="Smartphone.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

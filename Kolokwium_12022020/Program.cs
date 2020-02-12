@@ -29,6 +29,12 @@ namespace Kolokwium_12022020
             }
             var alfatyt = Playlista.OrderBy(x => x.Tytul).ToList();
             var alfaaut = Playlista.OrderBy(x => x.Autor).ToList();
+            Poczta poczta = new Poczta();
+            Smartphone smartphone = new Smartphone();
+            PrzegladarkaChrome przegladarkaChrome = new PrzegladarkaChrome(1);
+            Outlook outlook = new Outlook();
+
+           // poczta.NowyMail += smartphone.Send();
         }
     }
 }
