@@ -10,6 +10,7 @@ namespace Kolokwium_12022020
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
