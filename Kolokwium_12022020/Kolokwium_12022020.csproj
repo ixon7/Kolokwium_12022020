@@ -43,6 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cytat.cs" />
+    <Compile Include="DataTime.cs" />
+    <Compile Include="ExtensionMethod.cs" />
+    <Compile Include="IDrukarka.cs" />
+    <Compile Include="IKopiarka.cs" />
+    <Compile Include="ISkaner.cs" />
+    <Compile Include="Kopiarka.cs" />
     <Compile Include="Piosenka.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
